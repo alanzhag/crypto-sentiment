@@ -1,0 +1,28 @@
+{
+  "name": "nlp-utn-frba",
+  "version": "1.1.0",
+  "description": "Front-end layer of nlp-utn-frba",
+  "author": "DogStrokePls",
+  "private": true,
+  "scripts": {
+    "dev": "cd tp_1c_2021/client && nuxt",
+    "build": "nuxt build ./tp_1c_2021/client",
+    "start": "cd tp_1c_2021/client && nuxt start",
+    "generate": "cd tp_1c_2021/client && nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth-next": "5.0.0-1622018627.48534b6",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "nuxt": "^2.15.3",
+    "nuxt-izitoast": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.3",
+    "@nuxt/typescript-build": "^2.1.0"
+  }
+}

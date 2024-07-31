@@ -1,0 +1,2 @@
+gunicorn: gunicorn --chdir tp_1c_2021/server run:app --preload -b 127.0.0.1:5000
+nuxt: sh -c "cd tp_1c_2021/client && nuxt start"
